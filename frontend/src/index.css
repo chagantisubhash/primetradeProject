@@ -1,0 +1,13 @@
+/* src/index.css */
+body { font-family: 'Arial', sans-serif; background: #f0f4f8; margin:0; }
+.auth-container, .dashboard { max-width: 400px; margin: 50px auto; background:#fff; padding:20px; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+h2 { text-align:center; color:#0ea5a4; }
+input { display:block; width:100%; margin:10px 0; padding:10px; border-radius:5px; border:1px solid #ccc; }
+button { background:#fb923c; color:#fff; border:none; padding:10px 20px; border-radius:5px; cursor:pointer; }
+button:hover { background:#f97316; }
+.error { color:red; text-align:center; }
+.success { color:green; text-align:center; }
+.add-task { display:flex; flex-direction:column; }
+.task-list { list-style:none; padding:0; }
+.task-list li { background:#e0f2fe; margin:10px 0; padding:10px; border-radius:5px; position:relative; }
+.task-list button { position:absolute; top:10px; right:10px; background:red; padding:5px 10px; border-radius:3px; }
